@@ -48,6 +48,7 @@ gem "bootsnap", ">= 1.4.4", require: false
 # DfE Gems
 gem "govuk-components"
 gem "govuk_design_system_formbuilder"
+gem "govuk-wizardry"
 
 group :development, :test do
   # Start debugger with binding.b [https://github.com/ruby/debug]
