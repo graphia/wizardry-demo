@@ -107,6 +107,7 @@ GEM
     nio4r (2.5.8)
     nokogiri (1.12.4-x86_64-linux)
       racc (~> 1.4)
+    pg (1.2.3)
     puma (5.4.0)
       nio4r (~> 2.0)
     racc (1.5.2)
@@ -151,7 +152,6 @@ GEM
       actionpack (>= 4.0)
       activesupport (>= 4.0)
       sprockets (>= 3.0.0)
-    sqlite3 (1.4.2)
     stimulus-rails (0.5.3)
       rails (>= 6.0.0)
     thor (1.1.0)
@@ -183,10 +183,10 @@ DEPENDENCIES
   govuk_design_system_formbuilder
   jbuilder (~> 2.7)
   jsbundling-rails (~> 0.1.0)
+  pg
   puma (~> 5.0)
   rails (~> 7.0.0.alpha2)
   redis (~> 4.0)
-  sqlite3 (~> 1.4)
   stimulus-rails (>= 0.4.0)
   turbo-rails (>= 0.7.11)
   tzinfo-data
