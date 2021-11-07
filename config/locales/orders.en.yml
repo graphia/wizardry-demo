@@ -1,0 +1,16 @@
+en:
+  helpers:
+    label:
+      order:
+        full_name: What is your full name?
+        name: What should we call you?
+
+    hint:
+      order:
+        name: We'll use this to address you in emails
+
+    legend:
+      order:
+        size: What size would you like?
+        topping: Which topping do you want?
+        bonus_side_dish: Which side would you like?
